@@ -1,5 +1,5 @@
 import React from 'react'
-import testImg from '../assets/insta.jpg'
+import testImg from '../assets/testphoto6.jpg'
 
 const GalleryTile = () => {
   return (

@@ -1,10 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
-  return (
-    <div className='bg-primpink w-full md:h-96 h-144'>
-    </div>
-  )
-}
+	return (
+		<div className='bg-primpink w-full md:h-96 h-144'>
+      <div>
 
-export default Footer
+      </div>
+      <div>
+        
+      </div>
+			<div className="text-4xl">
+				<i class='fab fa-instagram-square'></i>
+				<i class='fab fa-facebook-square'></i>
+				<i class='fab fa-google'></i>
+			</div>
+		</div>
+	);
+};
+
+export default Footer;
