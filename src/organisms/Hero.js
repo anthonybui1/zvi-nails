@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react';
 import heroImg from '../assets/hero.jpg';
 
 const Hero = () => {
-  const [opacity, setOpacity] = useState('opacity-0')
+	const [opacity, setOpacity] = useState('opacity-0');
 
-  useEffect(() => {
-    setOpacity('opacity-1')
-  }, [])
+	useEffect(() => {
+		setOpacity('opacity-1');
+	}, []);
 
 	return (
-		<div className={`flex ${opacity} transition-opacity duration-1000`}>
+		<div className={`flex ${opacity} transition-opacity duration-1000`} id='hero'>
 			<div className='max-w-lg'>
 				<img className='object-contain' src={heroImg} alt='Hand covered in paint.' />
 			</div>

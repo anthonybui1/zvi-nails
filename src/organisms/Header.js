@@ -7,11 +7,11 @@ const Header = () => {
 			<a href='/' className='text-5xl font-display'>
 				ZVI NAILS
 			</a>
-			<AnchorButton text='Home' link='/' />
-			<AnchorButton text='Services' link='/' />
-			<AnchorButton text='Gallery' link='/' />
+			<AnchorButton text='Home' link='#hero' />
+			<AnchorButton text='Services' link='#services' />
+			<AnchorButton text='Gallery' link='#gallery' />
 			<AnchorButton text='About' link='#about' />
-			<AnchorButton text='Contact' link='/' />
+			<AnchorButton text='Contact' link='#contact' />
 		</nav>
 	);
 };
