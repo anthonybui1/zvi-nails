@@ -15,6 +15,11 @@ module.exports = {
 				header: ['Lustria', 'serif'],
 				body: ['Amethysta', 'serif'],
 			},
+			spacing: {
+				'128': '32rem',
+				'144': '36rem',
+				'192': '48rem',
+			},
 		},
 	},
 	variants: {
