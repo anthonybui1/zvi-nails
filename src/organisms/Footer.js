@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-		<div className='bg-lightpink w-full flex flex-col justify-between items-center pb-2'>
+		<div className='bg-lightpink w-full flex flex-col justify-between items-center pb-2 px-4'>
 			<div className='my-4'>
 				<h1 className='font-display text-6xl text-center'>ZVI Nails & Spa</h1>
 			</div>

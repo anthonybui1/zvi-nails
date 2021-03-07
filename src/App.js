@@ -10,7 +10,7 @@ import Footer from './organisms/Footer';
 const App = () => {
 	return (
 		<React.Fragment>
-			<div className='container container-md mx-auto'>
+			<div className='container container-md mx-auto px-4'>
 				<Header />
 				<Hero />
 				<Gallery />
