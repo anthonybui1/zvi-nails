@@ -5,14 +5,14 @@ import MobileMenu from '../molecules/MobileMenu';
 
 const Header = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-	const [menuShow, setMenuShow] = useState(false);
+	const [isOpen, setOpen] = useState(false);
 
 	useEffect(() => {
 		window.addEventListener('resize', () => {
 			setWindowWidth(window.innerWidth);
 		});
 		if (windowWidth > 768) {
-			setMenuShow(false);
+			setOpen(false);
 		}
 
 		return window.removeEventListener('resize', () => {
@@ -20,12 +20,14 @@ const Header = () => {
 		});
 	}, [windowWidth]);
 
-	const handleToggle = () => {
-		setMenuShow(!menuShow);
-	};
-
 	const showMenu = () => {
-		return windowWidth > 768 ? <DesktopMenu /> : <Hamburger onToggle={handleToggle} />;
+		return windowWidth > 768 ? (
+			<DesktopMenu />
+		) : (
+			<div className='z-20'>
+				<Hamburger toggled={isOpen} toggle={setOpen} />
+			</div>
+		);
 	};
 
 	return (
@@ -34,7 +36,7 @@ const Header = () => {
 				ZVI NAILS
 			</a>
 			{showMenu()}
-			<MobileMenu setMenuShow={setMenuShow} menuShow={menuShow} />
+			<MobileMenu setOpen={setOpen} isOpen={isOpen} />
 		</nav>
 	);
 };
