@@ -9,10 +9,14 @@ const About = () => {
 				src={familyImg}
 				alt='Person holding bouquet.'
 			/>
-			<div className='bg-lightpink flex items-center px-8'>
-				<h1 className='font-header text-sm md:text-3xl'>
-					I think it's an old fashioned notion that fashion needs to be exclusive to be fashionable.
+			<div className='bg-lightpink flex flex-col justify-center items-center px-4'>
+				<h1 className='font-header text-lg md:text-3xl mb-2'>
+					<strong>About Us</strong>
 				</h1>
+				<p className='text-xs font-body'>
+					We are a family owned business that takes pride in having served the Houston community for
+					over 20 years.{' '}
+				</p>
 			</div>
 		</div>
 	);
