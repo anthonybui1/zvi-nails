@@ -111,7 +111,7 @@ ageLOC Refreshing Facial $55 / 95 mins
 - Leaving the skin smooth and feeling refreshed!
 
 ageLOC Anti-Aging Facial $65 / 60 min
-- Includes all steps from ageLOC Refreshing FDacial, as well as indulge in a luxurious 10 minute spa experience for a more radiant, youthful face. This Facial:
+- Includes all steps from ageLOC Refreshing Facial, as well as indulge in a luxurious 10 minute spa experience for a more radiant, youthful face. This Facial:
 - Works immediately to lift, firm and tone your skin while reducing the appearance of lines and wrinkles
 - Leave undefined skin in the past and enjoy firmer, younger looking skin today and in the future, with ageLOC Tru Face Essence Ultra.
 
