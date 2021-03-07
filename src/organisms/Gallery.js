@@ -13,14 +13,14 @@ import tile8 from '../assets/gallery/tile8.jpg';
 const Gallery = () => {
 	return (
 		<div className='grid grid-cols-12 gap-4 my-4' id='gallery'>
-			<GalleryTile tile={tile1}/>
-			<GalleryTile tile={tile2}/>
-			<GalleryTile tile={tile3}/>
-			<GalleryTile tile={tile4}/>
-			<GalleryTile tile={tile5}/>
-			<GalleryTile tile={tile6}/>
-			<GalleryTile tile={tile7}/>
-			<GalleryTile tile={tile8}/>
+			<GalleryTile tile={tile1} options='' />
+			<GalleryTile tile={tile2} options='' />
+			<GalleryTile tile={tile3} options='' />
+			<GalleryTile tile={tile4} options='' />
+			<GalleryTile tile={tile5} options='' />
+			<GalleryTile tile={tile6} options='' />
+			<GalleryTile tile={tile7} options='md:block hidden'/>
+			<GalleryTile tile={tile8} options='md:block hidden'/>
 		</div>
 	);
 };
