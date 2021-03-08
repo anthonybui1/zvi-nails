@@ -5,18 +5,13 @@ const MobileMenuAnchor = ({ setOpen, link, title }) => {
 	const history = useHistory();
 
 	const handleClick = () => {
-		setOpen(false)
 		history.push('/');
+		setOpen(false);
 	};
 
 	return (
 		<React.Fragment>
-			<a
-
-				onClick={handleClick}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-				href={link}
-			>
+			<a onClick={handleClick} className='mt-8 text-xl p-2 border-b-4 border-primpink' href={link}>
 				{title}
 			</a>
 		</React.Fragment>

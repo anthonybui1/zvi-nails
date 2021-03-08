@@ -3,6 +3,11 @@ import MobileMenuAnchor from './MobileMenuAnchor';
 import { Link } from 'react-router-dom';
 
 const MobileMenu = ({ setOpen, isOpen }) => {
+	const handleHomeClick = () => {
+		setOpen(false);
+		window.scrollTo(0, 0);
+	};
+
 	return (
 		<ul
 			className={`fixed top-0 left-0 z-10 w-full h-screen bg-lightpink transition-all duration-300 ease-out transform flex flex-col justify-center items-center ${
@@ -11,7 +16,7 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 		>
 			<Link
 				to='/'
-				onClick={() => setOpen(false)}
+				onClick={handleHomeClick}
 				className='mt-8 text-xl p-2 border-b-4 border-primpink'
 			>
 				Home

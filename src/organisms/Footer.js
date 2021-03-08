@@ -8,7 +8,12 @@ const Footer = () => {
 			</div>
 			<div className='my-4 flex items-center'>
 				<p className='text-lg md:text-2xl'>Find us on Instagram</p>
-				<a href='https://www.instagram.com/zvi_nails/' className='cursor-pointer'>
+				<a
+					href='https://www.instagram.com/zvi_nails/'
+					className='cursor-pointer'
+					target='_blank'
+					rel='noreferrer'
+				>
 					<i className='fab fa-instagram-square text-3xl mx-6 transform hover:rotate-6 transition-all'></i>
 				</a>
 			</div>

@@ -8,7 +8,7 @@ const DesktopMenu = () => {
 			<Link
 				to='/'
 				className='font-header text-xl hover:shadow-xl hover:border-lightpink py-2 px-4 transition-all duration-500 border-b-4 border-neutral'
-				onClick={() => window.scrollTo(0,0)}
+				onClick={() => window.scrollTo(0, 0)}
 			>
 				Home
 			</Link>

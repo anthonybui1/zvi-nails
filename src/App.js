@@ -9,15 +9,14 @@ import Services from './organisms/Services';
 import About from './organisms/About';
 import Navigation from './organisms/Navigation';
 import Footer from './organisms/Footer';
-import ScrollChevron from './molecules/ScrollChevron';
 import ServicesPage from './organisms/ServicesPage';
 
 const App = () => {
 	return (
 		<BrowserRouter>
-			<ScrollToTop />
 			<div className='container max-w-screen-lg mx-auto px-4' id='top'>
 				<Header />
+				<ScrollToTop />
 				<Switch>
 					<Route exact path='/'>
 						<Hero />
@@ -30,7 +29,6 @@ const App = () => {
 					</Route>
 				</Switch>
 				<Navigation />
-				<ScrollChevron />
 			</div>
 			<Footer />
 		</BrowserRouter>

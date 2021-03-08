@@ -18,7 +18,7 @@ const ServicesPage = () => {
 					);
 				})}
 			</div>
-
+			
 			<div>
 				<h1 className='font-display text-3xl mt-4'>
 					<strong>Manicures</strong>
@@ -64,7 +64,9 @@ const ServicesPage = () => {
 			</div>
 
 			<div className='space-y-2'>
-				<h1 className='font-display text-3xl my-4'><strong>Waxing & Threading</strong></h1>
+				<h1 className='font-display text-3xl my-4'>
+					<strong>Waxing & Threading</strong>
+				</h1>
 				{menuData.waxingAndThreading.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -76,7 +78,9 @@ const ServicesPage = () => {
 			</div>
 
 			<div className='space-y-2'>
-				<h1 className='font-display text-3xl my-4'><strong>Shellac Nails</strong></h1>
+				<h1 className='font-display text-3xl my-4'>
+					<strong>Shellac Nails</strong>
+				</h1>
 				{menuData.shellacNails.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -88,7 +92,9 @@ const ServicesPage = () => {
 			</div>
 
 			<div className='space-y-2'>
-				<h1 className='font-display text-3xl my-4'><strong>Kids Packages</strong></h1>
+				<h1 className='font-display text-3xl my-4'>
+					<strong>Kids Packages</strong>
+				</h1>
 				{menuData.kidsPackages.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
