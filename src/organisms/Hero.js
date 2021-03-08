@@ -1,23 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import heroImg from '../assets/hero.jpg';
 import { reviewData } from '../assets/reviewData.js';
+import { useInterval } from '../hooks/useInterval';
 
 const Hero = () => {
 	const [opacity, setOpacity] = useState('opacity-0');
-	const [currIndex, setCurrIndex] = useState(0)
-	
-	useEffect(() => {
-		const reviewInterval = setInterval(() => {
-			if (currIndex + 1 >= reviewData.length) {
-				setCurrIndex(0)
-			} else {
-				setCurrIndex(currIndex => currIndex + 1)
-			}
-		}, 2000);
-		console.log(currIndex);
+	const [currIndex, setCurrIndex] = useState(0);
 
-		return () => clearInterval(reviewInterval);
-	}, [])
+	useInterval(() => {
+		if (currIndex + 1 >= reviewData.length) {
+			setCurrIndex(0);
+		} else {
+			setCurrIndex(currIndex + 1);
+		}
+	}, 5000);
 
 	useEffect(() => {
 		setOpacity('opacity-1');
@@ -28,7 +24,7 @@ const Hero = () => {
 			<div>
 				<img className='object-cover h-full' src={heroImg} alt='Hand covered in paint.' />
 			</div>
-			<div className='bg-lightpink flex flex-shrink-0 w-1/2 flex-col justify-center items-center px-4'>
+			<div className='bg-lightpink flex flex-shrink-0 w-1/2 flex-col justify-center items-center px-4 md:px-8'>
 				<div className='md:my-4 mb-1'>
 					<i className='fas fa-star text-xs sm:text-base' />
 					<i className='fas fa-star text-xs sm:text-base' />
@@ -36,9 +32,7 @@ const Hero = () => {
 					<i className='fas fa-star text-xs sm:text-base' />
 					<i className='fas fa-star text-xs sm:text-base' />
 				</div>
-				<h1 className='font-header text-xs sm:text-xl'>
-					"{reviewData[currIndex].review}"
-				</h1>
+				<h1 className='font-header text-xs sm:text-xl'>"{reviewData[currIndex].review}"</h1>
 				<p className='text-xs sm:text-lg md:mt-4 mt-1 self-end'>—{reviewData[currIndex].name}</p>
 			</div>
 		</div>

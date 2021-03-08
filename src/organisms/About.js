@@ -14,8 +14,8 @@ const About = () => {
 					<strong>About Us</strong>
 				</h1>
 				<p className='md:text-base text-xs text-center'>
-					We are a family owned business that takes pride in serving the Houston community for
-					over 20 years.
+					We are a family owned business that takes pride in serving the Houston community for over
+					20 years.
 				</p>
 			</div>
 		</div>

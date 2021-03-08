@@ -5,7 +5,11 @@ const Navigation = () => {
 		<div className='my-4' id='contact'>
 			<div className='h-48 w-full px-4 bg-neutral flex justify-evenly items-center'>
 				<div>
-					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Hours of Operation</strong></h3>
+					<h3 className='md:text-2xl text-lg font-header mb-4'>
+						<strong>
+							Hours <span className='hidden sm:inline-block'>of Operation</span>
+						</strong>
+					</h3>
 					<div className='flex space-between md:text-base text-xs'>
 						<p>
 							Mon-Fri <br />
@@ -13,12 +17,14 @@ const Navigation = () => {
 							Sunday
 						</p>
 						<p className='ml-4'>
-							9:30am-7:00 pm <br /> 9:00am-6:00pm <br /> 11:00am-5:00pm
+							9:30am-7:00pm <br /> 9:00am-6:00pm <br /> 11:00am-5:00pm
 						</p>
 					</div>
 				</div>
 				<div className='ml-4'>
-					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Find Us</strong></h3>
+					<h3 className='md:text-2xl text-lg font-header mb-4'>
+						<strong>Find Us</strong>
+					</h3>
 					<p className=' md:text-base text-xs'>
 						10807 Huffmeister Rd, <br />
 						Houston, TX 77065 <br />
