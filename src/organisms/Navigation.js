@@ -6,7 +6,7 @@ const Navigation = () => {
 			<div className='h-48 w-full px-4 bg-neutral flex justify-evenly items-center'>
 				<div>
 					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Hours of Operation</strong></h3>
-					<div className='flex space-between font-body md:text-base text-xs'>
+					<div className='flex space-between md:text-base text-xs'>
 						<p>
 							Mon-Fri <br />
 							Saturday <br />
@@ -19,7 +19,7 @@ const Navigation = () => {
 				</div>
 				<div className='ml-4'>
 					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Find Us</strong></h3>
-					<p className='font-body md:text-base text-xs'>
+					<p className=' md:text-base text-xs'>
 						10807 Huffmeister Rd, <br />
 						Houston, TX 77065 <br />
 						(281) 653-9319

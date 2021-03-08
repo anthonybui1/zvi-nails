@@ -1,4 +1,4 @@
-export const data = {
+export const menuData = {
 	nailServices: [
 		{ name: 'Full Set Pink Solar w/ Regular Polish', price: '$30+' },
 		{ name: 'Full Set Solar Color Powder', price: '$40+' },

@@ -12,7 +12,7 @@ const Footer = () => {
 					<i className='fab fa-instagram-square text-3xl mx-6 transform hover:rotate-6 transition-all'></i>
 				</a>
 			</div>
-			<div className='font-body text-xs mt-3'>
+			<div className='text-xs mt-3'>
 				<p>© 2021 ZVI Nails & Spa. All Rights Reserved.</p>
 			</div>
 		</div>

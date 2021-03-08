@@ -1,23 +1,45 @@
 import React, { useEffect, useState } from 'react';
 import heroImg from '../assets/hero.jpg';
+import { reviewData } from '../assets/reviewData.js';
 
 const Hero = () => {
 	const [opacity, setOpacity] = useState('opacity-0');
+	const [currIndex, setCurrIndex] = useState(0)
+	
+	useEffect(() => {
+		const reviewInterval = setInterval(() => {
+			if (currIndex + 1 >= reviewData.length) {
+				setCurrIndex(0)
+			} else {
+				setCurrIndex(currIndex => currIndex + 1)
+			}
+		}, 2000);
+		console.log(currIndex);
+
+		return () => clearInterval(reviewInterval);
+	}, [])
 
 	useEffect(() => {
 		setOpacity('opacity-1');
 	}, []);
 
 	return (
-		<div className={`flex ${opacity} transition-opacity duration-1000`} id='hero'>
-			<div className='max-w-lg'>
-				<img className='object-contain' src={heroImg} alt='Hand covered in paint.' />
+		<div className={`flex ${opacity} transition-opacity`} id='hero'>
+			<div>
+				<img className='object-cover h-full' src={heroImg} alt='Hand covered in paint.' />
 			</div>
-			<div className='bg-lightpink flex items-center px-8'>
-				<h1 className='font-header text-sm md:text-3xl'>
-					"The staff is very kind and all of them are very good at their jobs. The building is
-					beautiful and very clean and I have never had a problem with their service."
+			<div className='bg-lightpink flex flex-shrink-0 w-1/2 flex-col justify-center items-center px-4'>
+				<div className='md:my-4 mb-1'>
+					<i className='fas fa-star text-xs sm:text-base' />
+					<i className='fas fa-star text-xs sm:text-base' />
+					<i className='fas fa-star text-xs sm:text-base' />
+					<i className='fas fa-star text-xs sm:text-base' />
+					<i className='fas fa-star text-xs sm:text-base' />
+				</div>
+				<h1 className='font-header text-xs sm:text-xl'>
+					"{reviewData[currIndex].review}"
 				</h1>
+				<p className='text-xs sm:text-lg md:mt-4 mt-1 self-end'>—{reviewData[currIndex].name}</p>
 			</div>
 		</div>
 	);

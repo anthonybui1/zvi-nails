@@ -13,8 +13,8 @@ const About = () => {
 				<h1 className='font-header text-lg md:text-3xl mb-2'>
 					<strong>About Us</strong>
 				</h1>
-				<p className='md:text-base text-xs font-body text-center'>
-					We are a family owned business that takes pride in having served the Houston community for
+				<p className='md:text-base text-xs text-center'>
+					We are a family owned business that takes pride in serving the Houston community for
 					over 20 years.
 				</p>
 			</div>

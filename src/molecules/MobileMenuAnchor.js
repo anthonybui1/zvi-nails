@@ -5,7 +5,7 @@ const MobileMenuAnchor = ({ setOpen, link, title }) => {
 		<React.Fragment>
 			<a
 				onClick={() => setOpen(false)}
-				className='mt-8 text-xl font-body p-2 border-b-4 border-primpink'
+				className='mt-8 text-xl p-2 border-b-4 border-primpink'
 				href={link}
 			>
 				{title}
