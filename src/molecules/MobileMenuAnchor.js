@@ -1,10 +1,19 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 const MobileMenuAnchor = ({ setOpen, link, title }) => {
+	const history = useHistory();
+
+	const handleClick = () => {
+		setOpen(false)
+		history.push('/');
+	};
+
 	return (
 		<React.Fragment>
 			<a
-				onClick={() => setOpen(false)}
+
+				onClick={handleClick}
 				className='mt-8 text-xl p-2 border-b-4 border-primpink'
 				href={link}
 			>

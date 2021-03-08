@@ -9,7 +9,7 @@ const About = () => {
 				src={familyImg}
 				alt='Person holding bouquet.'
 			/>
-			<div className='bg-lightpink flex flex-col justify-center items-center px-4'>
+			<div className='bg-lightpink w-full flex flex-col justify-center items-center px-4'>
 				<h1 className='font-header text-lg md:text-3xl mb-2'>
 					<strong>About Us</strong>
 				</h1>

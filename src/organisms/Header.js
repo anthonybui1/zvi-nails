@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Squash as Hamburger } from 'hamburger-react';
 import DesktopMenu from '../molecules/DesktopMenu';
 import MobileMenu from '../molecules/MobileMenu';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -32,9 +33,9 @@ const Header = () => {
 
 	return (
 		<nav className='flex justify-between items-end mb-8 pt-6'>
-			<a href='/' className='md:text-6xl text-5xl font-display'>
+			<Link to='/' className='md:text-6xl text-5xl font-display'>
 				ZVI NAILS
-			</a>
+			</Link>
 			{showMenu()}
 			<MobileMenu setOpen={setOpen} isOpen={isOpen} />
 		</nav>

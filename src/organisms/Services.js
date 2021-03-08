@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
 	return (
@@ -15,12 +16,12 @@ const Services = () => {
 				<li className='hover:bg-lightpink w-full px-2 py-2'>Waxing & Threading</li>
 				<li className='hover:bg-lightpink w-full px-2 py-2'>Facials</li>
 			</ul>
-			<a
-				href='#services'
+			<Link
+				to='/services'
 				className='my-4 py-2 px-4 shadow-md hover:shadow-lg border-4 border-primpink cursor-pointer'
 			>
 				Menu
-			</a>
+			</Link>
 		</div>
 	);
 };
