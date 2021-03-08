@@ -6,20 +6,20 @@ const Navigation = () => {
 			<div className='h-48 w-full px-4 bg-neutral flex justify-evenly items-center'>
 				<div>
 					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Hours of Operation</strong></h3>
-					<div className='flex space-between text-body md:text-sm text-xs'>
+					<div className='flex space-between font-body md:text-base text-xs'>
 						<p>
 							Mon-Fri <br />
 							Saturday <br />
 							Sunday
 						</p>
 						<p className='ml-4'>
-							9:30 am - 7:00 pm <br /> 9:00 am - 6:00 pm <br /> 11:00 am - 5:00 pm
+							9:30am-7:00 pm <br /> 9:00am-6:00pm <br /> 11:00am-5:00pm
 						</p>
 					</div>
 				</div>
 				<div className='ml-4'>
 					<h3 className='md:text-2xl text-lg font-header mb-4'><strong>Find Us</strong></h3>
-					<p className='text-body md:text-sm text-xs'>
+					<p className='font-body md:text-base text-xs'>
 						10807 Huffmeister Rd, <br />
 						Houston, TX 77065 <br />
 						(281) 653-9319
