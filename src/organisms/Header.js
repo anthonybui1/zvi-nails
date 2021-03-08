@@ -32,8 +32,12 @@ const Header = () => {
 	};
 
 	return (
-		<nav className='flex justify-between items-end mb-8 pt-6'>
-			<Link to='/' className='md:text-6xl text-5xl font-display'>
+		<nav className='sticky top-0 z-20 bg-gray-50 bg-opacity-80 flex justify-between items-end mb-8 mt-6 pb-1'>
+			<Link
+				to='/'
+				className='md:text-6xl text-5xl font-display'
+				onClick={() => window.scrollTo(0, 0)}
+			>
 				ZVI NAILS
 			</Link>
 			{showMenu()}

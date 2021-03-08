@@ -20,9 +20,9 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div className={`flex ${opacity} transition-opacity`} id='hero'>
+		<div className={`flex ${opacity} transition-opacity bg-lightpink`} id='hero'>
 			<div>
-				<img className='object-cover h-full' src={heroImg} alt='Hand covered in paint.' />
+				<img className='object-cover h-full lg:max-h-eightyscreen md:max-h-eightyscreen max-h-fiftyscreen' src={heroImg} alt='Hand covered in paint.' />
 			</div>
 			<div className='bg-lightpink flex flex-shrink-0 w-1/2 flex-col justify-center items-center px-4 md:px-8'>
 				<div className='md:my-4 mb-1'>
