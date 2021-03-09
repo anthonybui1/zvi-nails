@@ -17,10 +17,6 @@ module.exports = {
 				'128': '32rem',
 				'144': '36rem',
 			},
-			maxHeight: {
-				'fiftyscreen': '50vh',
-				'eightyscreen': '80vh',
-			},
 		},
 	},
 	variants: {

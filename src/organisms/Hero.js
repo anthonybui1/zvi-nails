@@ -16,10 +16,10 @@ const Hero = () => {
 
 	return (
 		<React.Fragment>
-			<section className='flex bg-lightpink' id='hero'>
-				<div>
+			<section className='bg-lightpink w-full md:h-144 h-96 flex justify-center items-center' id='hero'>
+				<div className='flex h-full w-1/2'>
 					<img
-						className='object-cover h-full lg:max-h-eightyscreen md:max-h-eightyscreen max-h-fiftyscreen'
+						className='object-cover w-full'
 						src={heroImg}
 						alt='Hand covered in paint.'
 					/>

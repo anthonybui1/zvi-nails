@@ -48,7 +48,7 @@ const Location = () => {
 				loading='false'
 				className='w-full h-128'
 				title='Google Maps Directions'
-			/>
+			></iframe>
 		</section>
 	);
 };

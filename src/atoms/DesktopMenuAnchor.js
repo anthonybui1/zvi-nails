@@ -10,7 +10,7 @@ const DesktopMenuAnchor = ({ text, link, clickHandler }) => {
 				onClick={clickHandler}
 				aria-label={`Click the anchor link to jump to the ${text} section of the page`}
 			>
-				<b>{text}</b>
+				{text}
 			</Link>
 		</React.Fragment>
 	);
