@@ -5,7 +5,7 @@ const DesktopMenu = () => {
 	const handleClick = (id) => {
 		setTimeout(() => {
 			document.getElementById(id).scrollIntoView();
-		}, 200);
+		}, 250);
 	};
 
 	return (

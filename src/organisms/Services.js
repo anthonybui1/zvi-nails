@@ -18,6 +18,7 @@ const Services = () => {
 			</ul>
 			<Link
 				to='/services'
+				onClick={() => window.scrollTo(0, 0)}
 				className='my-4 py-2 px-4 shadow-md hover:shadow-lg border-4 border-primpink cursor-pointer md:text-lg'
 			>
 				<strong>Menu</strong>

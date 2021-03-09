@@ -1,5 +1,3 @@
-import React from 'react';
-
 const GalleryTile = (props) => {
 	return (
 		<div className={`col-span-6 md:col-span-3 relative ${props.options}`}>

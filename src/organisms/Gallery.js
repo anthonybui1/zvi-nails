@@ -1,4 +1,3 @@
-import React from 'react';
 import GalleryTile from '../molecules/GalleryTile';
 
 import tile1 from '../assets/gallery/tile1.jpg';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MobileMenu = ({ setOpen, isOpen }) => {
@@ -6,7 +5,7 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 		setOpen(false);
 		setTimeout(() => {
 			document.getElementById(id).scrollIntoView();
-		}, 200);
+		}, 300);
 	};
 
 	const handleServicesClick = () => {
