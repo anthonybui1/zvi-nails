@@ -14,7 +14,7 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 	};
 
 	return (
-		<ul
+		<nav
 			className={`fixed top-0 left-0 z-10 w-full h-screen bg-lightpink transition-all duration-500 ease-out transform flex flex-col justify-center items-center ${
 				isOpen ? 'opacity-90 translate-y-0' : 'opacity-0 -translate-y-full'
 			}`}
@@ -54,7 +54,7 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 			>
 				Contact
 			</Link>
-		</ul>
+		</nav>
 	);
 };
 

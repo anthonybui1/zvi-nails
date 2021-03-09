@@ -2,11 +2,20 @@
 
 ## Description
 
-Client side code for the ZVI Nails & Spa website.
+This repo contains the client code for the ZVI Nails & Spa website, located at [zvinailsandspa.com](https://www.zvinailsandspa.com/). This site is meant to support the ZVI Nails & Spa business in order to direct and provide information to potential clients. 
+
+## Goals for the Future
+
+- Provide a more sophisticated about us page and locations with more content
+- Customizable banner component for important information
+- Improve SEO
+- Always working on accessibility
+- Implement booking system when contractors are ready to switch
 
 ## Technologies
 
 - React
+- React Router
 - TailwindCSS
 - HTML
 

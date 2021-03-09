@@ -5,14 +5,14 @@ import Hero from './organisms/Hero';
 import Gallery from './organisms/Gallery';
 import Services from './organisms/Services';
 import About from './organisms/About';
-import Navigation from './organisms/Navigation';
+import Location from './organisms/Location';
 import Footer from './organisms/Footer';
-import ServicesPage from './organisms/ServicesPage';
+import Menu from './templates/Menu';
 
 const App = () => {
 	return (
 		<BrowserRouter>
-			<div className='container max-w-screen-lg mx-auto px-4' id='top'>
+			<main className='container max-w-screen-lg mx-auto px-4' id='top'>
 				<Header />
 				<Switch>
 					<Route exact path='/'>
@@ -22,11 +22,11 @@ const App = () => {
 						<About />
 					</Route>
 					<Route exact path='/services'>
-						<ServicesPage />
+						<Menu />
 					</Route>
 				</Switch>
-				<Navigation />
-			</div>
+				<Location />
+			</main>
 			<Footer />
 		</BrowserRouter>
 	);

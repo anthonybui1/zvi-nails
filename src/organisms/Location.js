@@ -1,41 +1,45 @@
 import { useLocation } from 'react-router-dom';
 
-const Navigation = () => {
+const Location = () => {
 	const location = useLocation();
 	const styleOptions = () => {
 		return location.pathname === '/' ? '' : 'hidden';
 	};
 
 	return (
-		<div className={`my-4 ${styleOptions()}`}>
+		<section className={`my-4 ${styleOptions()}`}>
 			<span id='contact' className='block relative -top-20' />
-			<div className='h-48 w-full px-4 bg-neutral flex justify-evenly items-center'>
+			<div className='w-full px-4 py-8 bg-neutral flex justify-evenly items-start'>
 				<div>
-					<h3 className='md:text-2xl text-lg font-header mb-4'>
-						<strong>
+					<h2 className='md:text-2xl text-lg font-header mb-4'>
+						<b>
 							Hours <span className='hidden sm:inline-block'>of Operation</span>
-						</strong>
-					</h3>
-					<div className='flex space-between md:text-base text-xs'>
-						<p>
-							Mon-Fri <br />
-							Saturday <br />
-							Sunday
-						</p>
-						<p className='ml-4'>
-							9:30am-7:00pm <br /> 9:00am-6:00pm <br /> 11:00am-5:00pm
-						</p>
+						</b>
+					</h2>
+					<div className='flex flex-col md:text-base text-xs'>
+						<div className='flex justify-between'>
+							<p>Mon-Fri</p>
+							<p className='text-right ml-2'>9:30am-7:00pm</p>
+						</div>
+						<div className='flex justify-between'>
+							<p>Saturday</p>
+							<p className='text-right ml-2'>9:00am-6:00pm</p>
+						</div>
+						<div className='flex justify-between'>
+							<p>Sunday</p>
+							<p className='text-right ml-2'>11:00am-5:00pm</p>
+						</div>
 					</div>
 				</div>
 				<div className='ml-4'>
-					<h3 className='md:text-2xl text-lg font-header mb-4'>
-						<strong>Find Us</strong>
-					</h3>
-					<p className=' md:text-base text-xs'>
+					<h2 className='md:text-2xl text-lg font-header mb-4'>
+						<b>Find Us</b>
+					</h2>
+					<address className=' md:text-base text-xs'>
 						10807 Huffmeister Rd, <br />
 						Houston, TX 77065 <br />
 						(281) 653-9319
-					</p>
+					</address>
 				</div>
 			</div>
 			<iframe
@@ -45,8 +49,8 @@ const Navigation = () => {
 				className='w-full h-128'
 				title='Google Maps Directions'
 			/>
-		</div>
+		</section>
 	);
 };
 
-export default Navigation;
+export default Location;

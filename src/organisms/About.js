@@ -1,13 +1,14 @@
 import React from 'react';
+
 import familyImg from '../assets/family.jpg';
 
 const About = () => {
 	return (
 		<React.Fragment>
 			<span id='about' className='block relative -top-28' />
-			<div className='flex my-4'>
+			<section className='flex my-4'>
 				<div className='w-1/2 flex-shrink-0'>
-					<img className='object-fit' src={familyImg} alt='Person holding bouquet.' />
+					<img className='object-fit' src={familyImg} alt='Two hands holding a heart shaped bouquet.' />
 				</div>
 				<div className='bg-lightpink w-full flex flex-col justify-center items-center px-4'>
 					<h1 className='font-header text-lg md:text-4xl mb-2'>
@@ -18,7 +19,7 @@ const About = () => {
 						over 20 years.
 					</p>
 				</div>
-			</div>
+			</section>
 		</React.Fragment>
 	);
 };

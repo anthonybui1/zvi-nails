@@ -1,13 +1,13 @@
 import React from 'react';
 import { menuData } from '../assets/menuData';
 
-const ServicesPage = () => {
+const Menu = () => {
 	return (
-		<div className='mx-auto max-w-prose flex flex-col my-8 px-2'>
-			<div>
-				<h1 className='font-display text-3xl text-center sticky top-12 md:top-16 bg-gray-50 bg-opacity-80'>
-					<strong>Pedicures</strong>
-				</h1>
+		<section className='mx-auto max-w-prose flex flex-col mt-8 mb-24 px-2'>
+			<article>
+				<h2 className='font-display text-3xl text-center'>
+					<b>Pedicures</b>
+				</h2>
 				{menuData.pedicures.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
@@ -17,12 +17,12 @@ const ServicesPage = () => {
 						</React.Fragment>
 					);
 				})}
-			</div>
+			</article>
 
-			<div>
-				<h1 className='font-display text-3xl text-center mt-4 sticky top-12 md:top-16 bg-gray-50 bg-opacity-80'>
-					<strong>Manicures</strong>
-				</h1>
+			<article>
+				<h2 className='font-display text-3xl text-center mt-4'>
+					<b>Manicures</b>
+				</h2>
 				{menuData.manicures.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
@@ -32,12 +32,12 @@ const ServicesPage = () => {
 						</React.Fragment>
 					);
 				})}
-			</div>
+			</article>
 
-			<div>
-				<h1 className='font-display text-3xl text-center mt-4 sticky top-12 md:top-16 bg-gray-50 bg-opacity-80'>
-					<strong>Facials</strong>
-				</h1>
+			<article>
+				<h2 className='font-display text-3xl text-center mt-4'>
+					<b>Facials</b>
+				</h2>
 				{menuData.facials.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
@@ -47,12 +47,12 @@ const ServicesPage = () => {
 						</React.Fragment>
 					);
 				})}
-			</div>
+			</article>
 
-			<div className='space-y-2'>
-				<h1 className='font-display text-3xl text-center my-4 sticky top-12 md:top-16 bg-gray-50 bg-opacity-80'>
-					<strong>Nail Services</strong>
-				</h1>
+			<article className='space-y-2'>
+				<h2 className='font-display text-3xl text-center my-4'>
+					<b>Nail Services</b>
+				</h2>
 				{menuData.nailServices.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -61,12 +61,12 @@ const ServicesPage = () => {
 						</div>
 					);
 				})}
-			</div>
+			</article>
 
-			<div className='space-y-2'>
-				<h1 className='font-display text-3xl text-center my-4 sticky top-12 md:top-16 bg-gray-50 bg-opacity-80'>
-					<strong>Waxing & Threading</strong>
-				</h1>
+			<article className='space-y-2'>
+				<h2 className='font-display text-3xl text-center my-4'>
+					<b>Waxing & Threading</b>
+				</h2>
 				{menuData.waxingAndThreading.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -75,12 +75,12 @@ const ServicesPage = () => {
 						</div>
 					);
 				})}
-			</div>
+			</article>
 
-			<div className='space-y-2'>
-				<h1 className='font-display text-3xl text-center my-4'>
-					<strong>Shellac Nails</strong>
-				</h1>
+			<article className='space-y-2'>
+				<h2 className='font-display text-3xl text-center my-4'>
+					<b>Shellac Nails</b>
+				</h2>
 				{menuData.shellacNails.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -89,12 +89,12 @@ const ServicesPage = () => {
 						</div>
 					);
 				})}
-			</div>
+			</article>
 
-			<div className='space-y-2'>
-				<h1 className='font-display text-3xl text-center my-4'>
-					<strong>Kids Packages</strong>
-				</h1>
+			<article className='space-y-2'>
+				<h2 className='font-display text-3xl text-center my-4'>
+					<b>Kids Packages</b>
+				</h2>
 				{menuData.kidsPackages.map((item, index) => {
 					return (
 						<div className='flex justify-between' key={index}>
@@ -103,9 +103,9 @@ const ServicesPage = () => {
 						</div>
 					);
 				})}
-			</div>
-		</div>
+			</article>
+		</section>
 	);
 };
 
-export default ServicesPage;
+export default Menu;
