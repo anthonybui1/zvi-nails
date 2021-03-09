@@ -12,7 +12,7 @@ import tile8 from '../assets/gallery/tile8.jpg';
 
 const Gallery = () => {
 	return (
-		<div className='grid grid-cols-12 gap-4 my-4' id='gallery'>
+		<div className='grid grid-cols-12 gap-4 my-4'>
 			<GalleryTile tile={tile1} options='' />
 			<GalleryTile tile={tile2} options='' />
 			<GalleryTile tile={tile3} options='' />

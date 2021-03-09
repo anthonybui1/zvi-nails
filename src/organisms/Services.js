@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
 	return (
-		<div className='flex flex-col bg-neutral justify-center items-center px-8 w-full' id='services'>
+		<div className='flex flex-col bg-neutral justify-center items-center px-8 w-full'>
 			<h1 className='font-header md:text-4xl text-3xl mt-6 mb-2'>
 				<strong>Services</strong>
 			</h1>

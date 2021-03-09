@@ -8,7 +8,8 @@ const Navigation = () => {
 	};
 
 	return (
-		<div className={`my-4 ${styleOptions()}`} id='contact'>
+		<div className={`my-4 ${styleOptions()}`}>
+			<span id='contact' className='block relative -top-20'/>
 			<div className='h-48 w-full px-4 bg-neutral flex justify-evenly items-center'>
 				<div>
 					<h3 className='md:text-2xl text-lg font-header mb-4'>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import ScrollToTop from './helpers/ScrollToTop';
 
 import Header from './organisms/Header';
 import Hero from './organisms/Hero';
@@ -16,7 +15,6 @@ const App = () => {
 		<BrowserRouter>
 			<div className='container max-w-screen-lg mx-auto px-4' id='top'>
 				<Header />
-				<ScrollToTop />
 				<Switch>
 					<Route exact path='/'>
 						<Hero />

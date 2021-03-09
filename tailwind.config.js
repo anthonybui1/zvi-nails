@@ -7,8 +7,6 @@ module.exports = {
 				primpink: '#FFB5A7',
 				lightpink: '#FCD5CE',
 				neutral: '#F8EDEB',
-				skin: '#F9DCC4',
-				tan: '#FEC89A',
 			},
 			fontFamily: {
 				display: ['Playfair Display', 'serif'],
@@ -18,7 +16,6 @@ module.exports = {
 			spacing: {
 				'128': '32rem',
 				'144': '36rem',
-				'192': '48rem',
 			},
 			maxHeight: {
 				'fiftyscreen': '50vh',

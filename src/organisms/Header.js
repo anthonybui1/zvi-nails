@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import { Squash as Hamburger } from 'hamburger-react';
 import DesktopMenu from '../molecules/DesktopMenu';
 import MobileMenu from '../molecules/MobileMenu';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);

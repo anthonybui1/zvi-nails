@@ -2,11 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MobileMenu = ({ setOpen, isOpen }) => {
-	const handleClick = (location) => {
+	const handleClick = (id) => {
 		setOpen(false);
 		setTimeout(() => {
-			document.getElementById(location).scrollIntoView();
-		}, 500);
+			document.getElementById(id).scrollIntoView();
+		}, 200);
+	};
+
+	const handleServicesClick = () => {
+		setOpen(false);
+		window.scrollTo(0, 0);
 	};
 
 	return (
@@ -31,7 +36,7 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 			</Link>
 			<Link
 				to='/services'
-				onClick={() => setOpen(false)}
+				onClick={handleServicesClick}
 				className='mt-8 text-xl p-2 border-b-4 border-primpink'
 			>
 				Services

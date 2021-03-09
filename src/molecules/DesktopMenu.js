@@ -1,8 +1,13 @@
 import React from 'react';
-import AnchorButton from './AnchorButton';
 import { Link } from 'react-router-dom';
 
 const DesktopMenu = () => {
+	const handleClick = (id) => {
+		setTimeout(() => {
+			document.getElementById(id).scrollIntoView();
+		}, 200);
+	};
+
 	return (
 		<React.Fragment>
 			<Link
@@ -12,15 +17,34 @@ const DesktopMenu = () => {
 			>
 				Home
 			</Link>
-			<AnchorButton text='Gallery' link='#gallery' />
+			<Link
+				to='/'
+				onClick={() => handleClick('gallery')}
+				className='font-header text-xl hover:shadow-xl hover:border-lightpink py-2 px-4 transition-all duration-500 border-b-4 border-neutral'
+			>
+				Gallery
+			</Link>
 			<Link
 				to='/services'
+				onClick={() => window.scrollTo(0, 0)}
 				className='font-header text-xl hover:shadow-xl hover:border-lightpink py-2 px-4 transition-all duration-500 border-b-4 border-neutral'
 			>
 				Services
 			</Link>
-			<AnchorButton text='About' link='/#about' />
-			<AnchorButton text='Contact' link='/#contact' />
+			<Link
+				to='/'
+				onClick={() => handleClick('about')}
+				className='font-header text-xl hover:shadow-xl hover:border-lightpink py-2 px-4 transition-all duration-500 border-b-4 border-neutral'
+			>
+				About
+			</Link>
+			<Link
+				to='/'
+				onClick={() => handleClick('contact')}
+				className='font-header text-xl hover:shadow-xl hover:border-lightpink py-2 px-4 transition-all duration-500 border-b-4 border-neutral'
+			>
+				Contact
+			</Link>
 		</React.Fragment>
 	);
 };

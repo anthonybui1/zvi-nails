@@ -18,7 +18,7 @@ const ServicesPage = () => {
 					);
 				})}
 			</div>
-			
+
 			<div>
 				<h1 className='font-display text-3xl mt-4'>
 					<strong>Manicures</strong>
