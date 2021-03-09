@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import heroImg from '../assets/hero.jpg';
+import heroImg from '../assets/hero.jpeg';
 import { reviewData } from '../assets/reviewData.js';
 import { useInterval } from '../hooks/useInterval';
 
@@ -16,12 +16,13 @@ const Hero = () => {
 
 	return (
 		<React.Fragment>
-			<section className='bg-lightpink w-full md:h-144 h-96 flex justify-center items-center' id='hero'>
+			<section className='bg-lightpink w-full md:h-144 h-96 flex justify-center items-center'>
 				<div className='flex h-full w-1/2'>
 					<img
 						className='object-cover w-full'
 						src={heroImg}
 						alt='Hand covered in paint.'
+						loading='eager'
 					/>
 				</div>
 				<div className='bg-lightpink flex flex-shrink-0 w-1/2 flex-col justify-center items-center px-4 md:px-8'>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import familyImg from '../assets/family.jpg';
+import familyImg from '../assets/family.jpeg';
 
 const About = () => {
 	return (
@@ -8,7 +8,12 @@ const About = () => {
 			<span id='about' className='block relative -top-28' />
 			<section className='flex my-4'>
 				<div className='w-1/2 flex-shrink-0'>
-					<img className='object-fit' src={familyImg} alt='Two hands holding a heart shaped bouquet.' />
+					<img
+						className='object-fit'
+						src={familyImg}
+						alt='Two hands holding a heart shaped bouquet.'
+						loading='lazy'
+					/>
 				</div>
 				<div className='bg-lightpink w-full flex flex-col justify-center items-center px-4'>
 					<h1 className='font-header text-lg md:text-4xl mb-2'>

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import MobileMenuAnchor from '../atoms/MobileMenuAnchor';
 
 const MobileMenu = ({ setOpen, isOpen }) => {
 	const handleClick = (id) => {
@@ -19,41 +19,11 @@ const MobileMenu = ({ setOpen, isOpen }) => {
 				isOpen ? 'opacity-90 translate-y-0' : 'opacity-0 -translate-y-full'
 			}`}
 		>
-			<Link
-				to='/'
-				onClick={() => handleClick('root')}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-			>
-				Home
-			</Link>
-			<Link
-				to='/'
-				onClick={() => handleClick('gallery')}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-			>
-				Gallery
-			</Link>
-			<Link
-				to='/services'
-				onClick={handleServicesClick}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-			>
-				Services
-			</Link>
-			<Link
-				to='/'
-				onClick={() => handleClick('about')}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-			>
-				About
-			</Link>
-			<Link
-				to='/'
-				onClick={() => handleClick('contact')}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
-			>
-				Contact
-			</Link>
+			<MobileMenuAnchor text='Home' link='/' clickHandler={() => handleClick('root')} />
+			<MobileMenuAnchor text='Gallery' link='/' clickHandler={() => handleClick('gallery')} />
+			<MobileMenuAnchor text='Services' link='/services' clickHandler={handleServicesClick} />
+			<MobileMenuAnchor text='About' link='/' clickHandler={() => handleClick('about')} />
+			<MobileMenuAnchor text='Contact' link='/' clickHandler={() => handleClick('contact')} />
 		</nav>
 	);
 };
