@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
 	return (
-		<section className='flex flex-col bg-neutral justify-center items-center px-8 w-full'>
-			<h2 className='font-header md:text-4xl text-3xl mt-6 mb-2'>
+		<section className='md-custom-container bg-neutral flex flex-col justify-center items-center w-full'>
+			<h2 className='font-display md:text-4xl text-3xl mt-6 mb-2'>
 				<b>Services</b>
 			</h2>
 			<ul className='text-center'>
@@ -19,7 +19,7 @@ const Services = () => {
 			<Link
 				to='/services'
 				onClick={() => window.scrollTo(0, 0)}
-				className='my-4 py-2 px-8 hover:shadow-md border-b-4 border-r-4 border-primpink text-lg'
+				className='my-4 py-2 px-8 hover:shadow-lg shadow-md border-b-4 border-r-4 border-primpink text-lg font-display transform hover:scale-105 transition-all'
 				aria-label='Clicking this link will take you to an overview of our services.'
 			>
 				<b>Menu</b>

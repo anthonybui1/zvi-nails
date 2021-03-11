@@ -11,7 +11,7 @@ import tile8 from '../assets/gallery/tile8.jpeg';
 
 const Gallery = () => {
 	return (
-		<section className='grid grid-cols-12 gap-4 my-4'>
+		<section className='container max-w-screen-lg mx-auto px-4 md:px-0 grid grid-cols-12 gap-4 my-4'>
 			<GalleryTile tile={tile1} options='' />
 			<GalleryTile tile={tile2} options='' />
 			<GalleryTile tile={tile3} options='' />

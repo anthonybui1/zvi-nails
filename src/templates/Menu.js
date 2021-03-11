@@ -3,7 +3,7 @@ import { menuData } from '../assets/menuData';
 
 const Menu = () => {
 	return (
-		<section className='mx-auto max-w-prose flex flex-col mt-8 mb-24 px-2'>
+		<section className='mx-auto max-w-prose flex flex-col mt-8 mb-24 px-4'>
 			<article>
 				<h2 className='font-display text-3xl text-center'>
 					<b>Pedicures</b>
@@ -11,7 +11,7 @@ const Menu = () => {
 				{menuData.pedicures.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
-							<h3 className='font-header md:text-2xl text-xl mt-4'>{item.name}</h3>
+							<h3 className='font-display md:text-2xl text-xl mt-4'>{item.name}</h3>
 							<p className='text-sm md:text-base'>{item.description}</p>
 							<p>{item.price}</p>
 						</React.Fragment>
@@ -26,7 +26,7 @@ const Menu = () => {
 				{menuData.manicures.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
-							<h3 className='font-header md:text-2xl text-xl mt-4'>{item.name}</h3>
+							<h3 className='font-display md:text-2xl text-xl mt-4'>{item.name}</h3>
 							<p className='text-sm md:text-base'>{item.description}</p>
 							<p>{item.price}</p>
 						</React.Fragment>
@@ -41,7 +41,7 @@ const Menu = () => {
 				{menuData.facials.map((item, index) => {
 					return (
 						<React.Fragment key={index}>
-							<h3 className='font-header md:text-2xl text-xl mt-4'>{item.name}</h3>
+							<h3 className='font-display md:text-2xl text-xl mt-4'>{item.name}</h3>
 							<p className='text-sm md:text-base'>{item.description}</p>
 							<p>{item.price}</p>
 						</React.Fragment>

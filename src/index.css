@@ -5,3 +5,7 @@
 html {
 	scroll-behavior: smooth;
 }
+
+.md-custom-container {
+	@apply md:container md:max-w-screen-lg md:mx-auto;
+}

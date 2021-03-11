@@ -16,7 +16,7 @@ const Hero = () => {
 
 	return (
 		<React.Fragment>
-			<section className='bg-lightpink w-full md:h-144 h-96 flex justify-center items-center'>
+			<section className='w-full bg-lightpink container max-w-screen-lg mx-auto md:h-144 h-96 flex justify-center items-center'>
 				<div className='flex h-full w-1/2'>
 					<img
 						className='object-cover w-full'
@@ -33,7 +33,7 @@ const Hero = () => {
 						<i className='fas fa-star text-xs sm:text-base' />
 						<i className='fas fa-star text-xs sm:text-base' />
 					</span>
-					<h2 className='font-header text-xs sm:text-xl'>"{reviewData[currIndex].review}"</h2>
+					<h2 className='font-display text-xs sm:text-xl'>"{reviewData[currIndex].review}"</h2>
 					<p className='text-xs sm:text-lg md:mt-4 mt-1 self-end'>—{reviewData[currIndex].name}</p>
 				</div>
 			</section>

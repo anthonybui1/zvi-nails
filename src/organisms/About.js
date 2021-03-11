@@ -4,28 +4,28 @@ import familyImg from '../assets/family.jpeg';
 
 const About = () => {
 	return (
-		<React.Fragment>
+		<section className='bg-lightpink md-custom-container'>
 			<span id='about' className='block relative -top-28' />
-			<section className='flex my-4'>
+			<div className='container max-w-screen-lg mx-auto py-8 px-4 flex justify-center md:my-4'>
 				<div className='w-1/2 flex-shrink-0'>
 					<img
-						className='object-fit'
+						className='object-fit rounded-full shadow-md'
 						src={familyImg}
 						alt='Two hands holding a heart shaped bouquet.'
 						loading='lazy'
 					/>
 				</div>
-				<div className='bg-lightpink w-full flex flex-col justify-center items-center px-4'>
-					<h1 className='font-header text-lg md:text-4xl mb-2'>
-						<strong>About Us</strong>
+				<div className='w-1/2 px-4 flex flex-col justify-center items-center'>
+					<h1 className='font-display text-lg md:text-4xl mb-2'>
+						<b>About Us</b>
 					</h1>
 					<p className='md:text-base text-xs text-center'>
 						We are a family owned business that takes pride in serving the Houston community for
 						over 20 years.
 					</p>
 				</div>
-			</section>
-		</React.Fragment>
+			</div>
+		</section>
 	);
 };
 

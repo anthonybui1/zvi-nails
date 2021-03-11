@@ -6,7 +6,7 @@ const DesktopMenuAnchor = ({ text, link, clickHandler }) => {
 		<React.Fragment>
 			<Link
 				to={link}
-				className='font-header text-lg hover:shadow-xl hover:border-primpink py-2 px-4 transition-all duration-500 border-b-4 border-r-4 border-neutral ml-2'
+				className='font-display text-lg hover:shadow-xl hover:border-primpink py-2 px-4 transition-all duration-500 border-b-4 border-r-4 border-neutral ml-2'
 				onClick={clickHandler}
 				aria-label={`Click the anchor link to jump to the ${text} section of the page`}
 			>

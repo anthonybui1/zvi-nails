@@ -12,7 +12,7 @@ import Menu from './templates/Menu';
 const App = () => {
 	return (
 		<BrowserRouter>
-			<main className='container max-w-screen-lg mx-auto px-4' id='top'>
+			<main className='' id='top'>
 				<Header />
 				<Switch>
 					<Route exact path='/'>
