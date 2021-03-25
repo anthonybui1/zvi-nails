@@ -41,6 +41,8 @@ Install dependencies
 
 The user is warmly greeted and able to obtain more information about the storefront including the services rendered, recent work, and store location.
 
+![Demo of the ZVI Nails website](https://media.giphy.com/media/cs3cxCg3croykPFDJy/giphy.gif)
+
 ## Contributing
 
 This project is not accepting contributions. You are welcome to use as a template.

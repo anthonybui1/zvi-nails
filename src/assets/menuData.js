@@ -28,25 +28,25 @@ export const menuData = {
 			name: 'Regular Pedicure',
 			price: '$25',
 			description:
-				'Feet soaking in warm water to improve blood circulation with full nail maintenance (trimming, shape, cuticle details) provided. Next is Sugar Scrub to exfoliate all the dryness and dead skin cells and callus removal followed by a relaxing Massage with moisturizing lotion. Finish with a warm towel and expert polish application.',
+				'Soak your feet in our warm spa to improve blood circulation while we perform full nail maintenance (trimming, shape, and cuticle details). Follow with Sugar Scrub to exfoliate all your dry skin cells, callus removal, and a relaxing Massage with moisturizing lotion. Finish with relaxing warm towel therapy and expert polish application.',
 		},
 		{
 			name: 'Deluxe Pedicure',
 			price: '$35',
 			description:
-				'Having your own choice with 4/1 deluxe premium spa pedicure. There are Pedi Tablet with Sugar Scrub, Mud Masque, and Lotion with different choices and purposes. A full nail maintenance is provided. Hot stone massage also comes along with the Pedi Tablet. Finish with an expert application of color polish.',
+				'Have your own choice with our 4/1 deluxe spa pedicure. Options include Pedi Tablet with Sugar Scrub, Mud Masque, or Lotion. Full nail maintenance is provided. Hot stone massage also comes along with the Pedi Tablet. Finish with an expert application of color polish.',
 		},
 		{
 			name: 'Collagen Pedicure',
 			price: '$50',
 			description:
-				'Aromatic feet soak in warm water adding a packet of Collagen Bubble Crystals spa to the water and a full nail maintenance. Next is applying Collagen Sugar Cane Scrub (your choice) and massage skin to exfoliate for more vibrant appearance with the following of Collagen Cream Mask wrapped a warm towel to rejuvenate and soften your skin. Collagen Muscle — Relaxing Gel and Massage Lotion are applied onto skin for relaxing muscle with a warm soothing effect and a silky finish followed by hot wax and hot stone massage. Finish with color of your choice. ',
+				'Your feet will soak in our aromatic spa while we add a packet of Collagen Bubble Crystals to the water and perform full nail maintenance. Next we apply Collagen Sugar Cane Scrub (your choice) and massage your skin to exfoliate for a more vibrant appearance. We follow with the addition  of a Collagen Cream Mask wrapped in a warm towel to rejuvenate and soften your skin. Collagen Muscle — Relaxing Gel and Massage Lotion is applied onto your skin for a warm soothing effect and silky finish followed by wax and hot stone massage. Finish with color polish of your choice. ',
 		},
 		{
 			name: 'Volcano Pearl Pedicure',
 			price: '$60',
 			description:
-				'The Volcano Spa Pedicure is a luxury 5 step organic package from the deep sea, formulated to provide clients a premium pedicure experience. Detox crystals and activators combine to create an invigorating and detoxifying experience. Pearl powder promotes cell renewal for youthful and healthy-looking skin. Natural moisturizer protects from UV rays and free radicals. Soaking your feet in a warm bath of pearl soak gives you a stress-free soak. Next is full nail maintenace. Pearl Cleanse will then be applied to exfoliate all impurities, dry skin and rough heels. A creamy pearl mask wrapped in a warm towel to condition and hydrate your skin. Finished with hot paraffin wax and a hot stone massage. Expert application of color polish. ',
+				'The Volcano Spa Pedicure is a luxury 5 step organic package from the deep sea, formulated to provide clients a premium pedicure experience. Detox crystals and activators combine to create an invigorating and detoxifying experience. Pearl powder promotes cell renewal for youthful and healthy-looking skin. Natural moisturizer protects from UV rays and free radicals. Soaking your feet in a warm bath of pearl soak gives you a stress clearing experience. Next is full nail maintenance followed by a Pearl Cleanse which will then be applied to exfoliate all impurities, dry skin and rough heels. A creamy pearl mask wrapped in a warm towel is applied to condition and hydrate your skin. We finish with hot paraffin wax and hot stone massage along with expert application of color polish.',
 		},
 	],
 	manicures: [
@@ -54,13 +54,13 @@ export const menuData = {
 			name: 'Regular Manicure',
 			price: '$15',
 			description:
-				'Soak your hands in a bowl of warm water, nail trimming and shaping, cuticle care and relaxing massage with a special essential oil that helps you unstress all your fingers. Color of your choice or buffering shiny.',
+				'Soak your hands in our warm bath while we perform nail trimming, shaping, cuticle care and provide a relaxing massage with special essential oils that relieve your achey hands. Apply a color of your choice or allow us to buffer your nails to a clean shiny appearance.',
 		},
 		{
 			name: 'Deluxe Manicure',
 			price: '$30',
 			description:
-				'Aromatic soaking of hands in the crystal water with a full manicure maintenance to exfoliate dry, dead skin cells with a Sugar Scrub (your choice), and a mask wrapped in a warm towel to hydrate and condition your skin for a healthy look. Paraffin hot wax is applied while you are pampered with the hot stone massage. Expert application of color polish. ',
+				'Aromatic soaking of hands in the our warm crystal water bath with while we perform full manicure maintenance to exfoliate dry, dead skin cells with a Sugar Scrub (your choice), and a mask wrapped in a warm towel to hydrate and condition your skin for a healthy look. Paraffin hot wax is applied while you are pampered with the hot stone massage. End with an expert application of color polish.',
 		},
 	],
 	waxingAndThreading: [
@@ -87,10 +87,10 @@ export const menuData = {
 		{
 			name: 'ageLOC Refreshing Facial',
 			price: '$55',
-			duration: '95 min',
+			duration: '60 min',
 			description: [
 				"Smoothes the skin's surface by releasing dead cell buildup and pore-blocking impurities",
-				'Cleanese and purifies your skin, increases hydration, delivers your first infusion of ageLOC to reduce the signs of aging',
+				'Cleanses and purifies your skin, increases hydration, delivers your first infusion of ageLOC to reduce the signs of aging',
 				'Steams skin for blackhead removal',
 				'Extracts impurities, removes dead skin cells, and rejuvenates damaged skin',
 				'Infuses soothing nutrients from cactus extract to help keep skin healthy-looking, beautiful, and fully moisturized. Leaving the skin smooth and feeling refreshed!',
@@ -99,11 +99,11 @@ export const menuData = {
 		{
 			name: 'ageLOC Anti-Aging Facial',
 			price: '$65',
-			duration: '60 min',
+			duration: '70 min',
 			description: [
-				'Includes all steps from ageLOC Refreshing Facial, and indulge in a luxurious 10 minute spa experience for a more radiant, youthful face.',
+				'Includes all steps from ageLOC Refreshing Facial, also indulge in a luxurious 10 minute spa experience for a more radiant, youthful face.',
 				'Works immediately to lift, firm and tone your skin while reducing the appearance of lines and wrinkles',
-				'Leave undefined skin in the pat and enjoy firmer, younger looking skin today and in the future, with ageLOC Tru Face Essence Ultra.',
+				'Leave undefined skin in the past and enjoy firmer, younger looking skin today and in the future, with ageLOC Tru Face Essence Ultra.',
 			],
 		},
 		{
@@ -112,7 +112,7 @@ export const menuData = {
 			duration: '',
 			description: [
 				'Pamper your skin with an exfoliating treatment and a refreshing face mask that will leave your skin feeling moisturzied',
-				'Add on this special Mask while you do your Nails or Mani + Pedi Spa Service',
+				'Add on this special Mask anytime while you do your Nails or any Mani + Pedi Spa Service',
 			],
 		},
 	],
