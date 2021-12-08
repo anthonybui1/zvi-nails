@@ -6,7 +6,7 @@ const MobileMenuAnchor = ({ text, link, clickHandler }) => {
 		<React.Fragment>
 			<Link
 				to={link}
-				className='mt-8 text-xl p-2 border-b-4 border-primpink'
+				className='mt-8 text-xl p-2 border-b-4 border-accent'
 				onClick={clickHandler}
 				aria-label={`Click the anchor link to jump to the ${text} section of the page`}
 			>

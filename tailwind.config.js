@@ -4,9 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primpink: '#FFB5A7',
-				lightpink: '#FCD5CE',
-				neutral: '#F8EDEB',
+				accent: '#D0B27A', // dark-gold
+				base: '#FFFAF1', // light-gold
 			},
 			fontFamily: {
 				display: ['Playfair Display', 'serif'],

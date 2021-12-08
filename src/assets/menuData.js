@@ -1,22 +1,22 @@
 export const menuData = {
 	nailServices: [
-		{ name: 'Full Set Pink Solar w/ Regular Polish', price: '$30+' },
-		{ name: 'Full Set Solar Color Powder', price: '$40+' },
-		{ name: 'Full Set Pink & White', price: '$45+' },
-		{ name: 'Full Set Pink Solar w/ Shellac', price: '$45+' },
-		{ name: 'Refill Pink', price: '$20+' },
-		{ name: 'Refill Same Color', price: '$30+' },
-		{ name: 'Refill Color Powder', price: '$35+' },
-		{ name: 'Refill Pink & White', price: '$35+' },
-		{ name: 'Refill w/ Shellac', price: '$35+' },
-		{ name: 'Nail Dip', price: '$40+' },
-		{ name: 'Dip French', price: '$45+' },
+		{ name: 'Full Set Pink Solar w/ Regular Polish', price: '$35+' },
+		{ name: 'Full Set Solar Color Powder', price: '$43+' },
+		{ name: 'Full Set Pink & White', price: '$48+' },
+		{ name: 'Full Set Pink Solar w/ Shellac', price: '$48+' },
+		{ name: 'Refill Pink', price: '$28+' },
+		{ name: 'Refill Same Color', price: '$33+' },
+		{ name: 'Refill Color Powder', price: '$38+' },
+		{ name: 'Refill Pink & White', price: '$38+' },
+		{ name: 'Refill w/ Shellac', price: '$38+' },
+		{ name: 'Nail Dip', price: '$43+' },
+		{ name: 'Dip French', price: '$48+' },
 	],
 	shellacNails: [
 		{ name: 'Manicure Shellac', price: '$30+' },
 		{ name: 'French Manicure Shellac', price: '$35+' },
 		{ name: 'Shellac Hand Polish Change', price: '$20+' },
-		{ name: 'Shellac Toes Polish Change', price: '$20+' },
+		{ name: 'Shellac Toes Polish Change', price: '$23+' },
 	],
 	kidsPackages: [
 		{ name: 'Mani + Pedi', price: '$28+' },
@@ -26,25 +26,25 @@ export const menuData = {
 	pedicures: [
 		{
 			name: 'Regular Pedicure',
-			price: '$25',
+			price: '$27',
 			description:
 				'Soak your feet in our warm spa to improve blood circulation while we perform full nail maintenance (trimming, shape, and cuticle details). Follow with Sugar Scrub to exfoliate all your dry skin cells, callus removal, and a relaxing Massage with moisturizing lotion. Finish with relaxing warm towel therapy and expert polish application.',
 		},
 		{
 			name: 'Deluxe Pedicure',
-			price: '$35',
+			price: '$38',
 			description:
 				'Have your own choice with our 4/1 deluxe spa pedicure. Options include Pedi Tablet with Sugar Scrub, Mud Masque, or Lotion. Full nail maintenance is provided. Hot stone massage also comes along with the Pedi Tablet. Finish with an expert application of color polish.',
 		},
 		{
 			name: 'Collagen Pedicure',
-			price: '$50',
+			price: '$53',
 			description:
 				'Your feet will soak in our aromatic spa while we add a packet of Collagen Bubble Crystals to the water and perform full nail maintenance. Next we apply Collagen Sugar Cane Scrub (your choice) and massage your skin to exfoliate for a more vibrant appearance. We follow with the addition  of a Collagen Cream Mask wrapped in a warm towel to rejuvenate and soften your skin. Collagen Muscle — Relaxing Gel and Massage Lotion is applied onto your skin for a warm soothing effect and silky finish followed by wax and hot stone massage. Finish with color polish of your choice. ',
 		},
 		{
 			name: 'Volcano Pearl Pedicure',
-			price: '$60',
+			price: '$63',
 			description:
 				'The Volcano Spa Pedicure is a luxury 5 step organic package from the deep sea, formulated to provide clients a premium pedicure experience. Detox crystals and activators combine to create an invigorating and detoxifying experience. Pearl powder promotes cell renewal for youthful and healthy-looking skin. Natural moisturizer protects from UV rays and free radicals. Soaking your feet in a warm bath of pearl soak gives you a stress clearing experience. Next is full nail maintenance followed by a Pearl Cleanse which will then be applied to exfoliate all impurities, dry skin and rough heels. A creamy pearl mask wrapped in a warm towel is applied to condition and hydrate your skin. We finish with hot paraffin wax and hot stone massage along with expert application of color polish.',
 		},
