@@ -7,14 +7,14 @@ const Location = () => {
 
 	return (
 		<React.Fragment>
-			<section className={`${styleOptions} bg-base md:mt-4 md-custom-container`}>
+			<section className={`${styleOptions} bg-primary md:mt-4 md-custom-container`}>
 				<span id='contact' className='block relative -top-20' />
 				<div className='py-12 flex flex-col items-center space-y-12 md:space-y-0 md:flex-row md:justify-evenly md:items-start'>
 					<div>
 						<h2 className='text-lg text-center font-display mb-4 font-bold md:text-2xl md:text-left'>
 							Hours of Operation
 						</h2>
-						<div className='flex flex-col text-base'>
+						<div className='flex flex-col'>
 							<div className='flex justify-between'>
 								<p>Mon-Fri</p>
 								<p className='text-right ml-2'>9:30am-7:00pm</p>

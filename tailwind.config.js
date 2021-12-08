@@ -5,7 +5,7 @@ module.exports = {
 		extend: {
 			colors: {
 				accent: '#D0B27A', // dark-gold
-				base: '#FFFAF1', // light-gold
+				primary: '#FFFAF1', // light-gold
 			},
 			fontFamily: {
 				display: ['Playfair Display', 'serif'],
