@@ -88,32 +88,22 @@ export const menuData = {
 			name: 'ageLOC Refreshing Facial',
 			price: '$55',
 			duration: '60 min',
-			description: [
-				"Smoothes the skin's surface by releasing dead cell buildup and pore-blocking impurities",
-				'Cleanses and purifies your skin, increases hydration, delivers your first infusion of ageLOC to reduce the signs of aging',
-				'Steams skin for blackhead removal',
-				'Extracts impurities, removes dead skin cells, and rejuvenates damaged skin',
-				'Infuses soothing nutrients from cactus extract to help keep skin healthy-looking, beautiful, and fully moisturized. Leaving the skin smooth and feeling refreshed!',
-			],
+			description:
+				"Smoothes the skin's surface by releasing dead cell buildup and pore-blocking impurities. Cleanses and purifies your skin, increases hydration, delivers your first infusion of ageLOC to reduce the signs of aging. Steams skin for blackhead removal. Extracts impurities, removes dead skin cells, and rejuvenates damaged skin. Infuses soothing nutrients from cactus extract to help keep skin healthy-looking, beautiful, and fully moisturized. Leaving the skin smooth and feeling refreshed!",
 		},
 		{
 			name: 'ageLOC Anti-Aging Facial',
 			price: '$65',
 			duration: '70 min',
-			description: [
-				'Includes all steps from ageLOC Refreshing Facial, also indulge in a luxurious 10 minute spa experience for a more radiant, youthful face.',
-				'Works immediately to lift, firm and tone your skin while reducing the appearance of lines and wrinkles',
-				'Leave undefined skin in the past and enjoy firmer, younger looking skin today and in the future, with ageLOC Tru Face Essence Ultra.',
-			],
+			description:
+				'Includes all steps from ageLOC Refreshing Facial, also indulge in a luxurious 10 minute spa experience for a more radiant, youthful face. Works immediately to lift, firm and tone your skin while reducing the appearance of lines and wrinkles. Leave undefined skin in the past and enjoy firmer, younger looking skin today and in the future, with ageLOC Tru Face Essence Ultra.',
 		},
 		{
 			name: 'Refresh Mask',
 			price: '$25',
 			duration: '',
-			description: [
-				'Pamper your skin with an exfoliating treatment and a refreshing face mask that will leave your skin feeling moisturzied',
-				'Add on this special Mask anytime while you do your Nails or any Mani + Pedi Spa Service',
-			],
+			description:
+				'Pamper your skin with an exfoliating treatment and a refreshing face mask that will leave your skin feeling moisturized. Add on this special Mask anytime while you do your Nails or any Mani + Pedi Spa Service',
 		},
 	],
 };
