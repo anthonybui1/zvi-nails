@@ -21,11 +21,11 @@ const Location = () => {
 							</div>
 							<div className='flex justify-between'>
 								<p>Saturday</p>
-								<p className='text-right ml-2'>9:00am-6:00pm</p>
+								<p className='text-right ml-2 font-bold'>Closed for New Years!</p>
 							</div>
 							<div className='flex justify-between'>
 								<p>Sunday</p>
-								<p className='text-right ml-2'>11:00am-5:00pm</p>
+								<p className='text-right ml-2 font-bold'>Closed for New Years!</p>
 							</div>
 						</div>
 					</div>
