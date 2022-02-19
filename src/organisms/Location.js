@@ -21,11 +21,11 @@ const Location = () => {
 							</div>
 							<div className='flex justify-between'>
 								<p>Saturday</p>
-								<p className='text-right ml-2 font-bold'>Closed for New Years!</p>
+								<p className='text-right ml-2'>9:00am-6:00pm</p>
 							</div>
 							<div className='flex justify-between'>
 								<p>Sunday</p>
-								<p className='text-right ml-2 font-bold'>Closed for New Years!</p>
+								<p className='text-right ml-2'>11:00am-5:00pm</p>
 							</div>
 						</div>
 					</div>
@@ -33,7 +33,7 @@ const Location = () => {
 						<h2 className='md:text-2xl text-lg font-display mb-4 font-bold text-center md:text-left'>
 							Find Us
 						</h2>
-						<address className="text-center md:text-left">
+						<address className='text-center md:text-left'>
 							10807 Huffmeister Rd, <br />
 							Houston, TX 77065 <br />
 							(281) 653-9319
